@@ -2,6 +2,7 @@
   #primary {width:100%;}
   #secondary {width:100%; margin:0; border:none;}
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -41,3 +42,4 @@ img {
     transform: rotate(1turn)
   }
 }
+
