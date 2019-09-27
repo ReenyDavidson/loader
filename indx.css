@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading {
+   max-width: 50%;
+   line-height: 1.4;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+
+img {
+  margin: 0.6rem 0 2rem 0;
+  display: block;
+  width:400px;
+
+}
+
+.loading__anim {
+  width: 35px;
+  height: 35px;
+  border:  5px solid rgba(189,189,189 ,0.25);
+  border-left-color: lightgreen;
+  border-top-color: lightblue;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 600ms infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn)
+  }
+}
