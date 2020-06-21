@@ -30,8 +30,8 @@ img {
   width: 35px;
   height: 35px;
   border:  5px solid rgba(189,189,189 ,0.25);
-  border-left-color: lightgreen;
-  border-top-color: lightblue;
+  border-left-color:black;
+  border-top-color: blue;
   border-radius: 50%;
   display: inline-block;
   animation: rotate 600ms infinite linear;
